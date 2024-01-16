@@ -1,0 +1,24 @@
+.table {
+  font-family: Arial,sans-serif;
+}
+.table th {
+  font-weight: 700;
+  padding: 21px 25px 22px;
+  background: #AFCDE7;
+  color: #fff;
+}
+
+.table tr td {
+  padding: 18px;
+  background-color: #D8E6F3;
+  width: 100px;
+  text-align: center;
+}
+
+/*первая колонка*/
+.table tr td:first-child {
+  background-color: #AFCDE7;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+}
